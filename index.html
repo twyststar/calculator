@@ -9,8 +9,35 @@
     <title>Calculator</title>
 
   </head>
+
   <body>
-    <h1>Calculator</h1>
-    <script src="js/scripts.js"></script>
+    <div class="container">
+<!--HEAD-->
+      <div class="jumbotron">
+        <h1>Calculator</h1>
+        <p>Today:math, tomorrow:the WORLD.</p>
+      </div>
+<!--FORM-->
+      <div class="well">
+        <form id="add" action="index.html" method="post">
+          <div class="form-group">
+            <label for="add1"></label>
+            <input id="add1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="add2"></label>
+            <input id="add2" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Add</button>
+        </form>
+        <div class="well">
+          <h4 id="output"></h4>
+        </div>
+      </div>
+
+    </div>
+
+
+
   </body>
 </html>
