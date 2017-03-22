@@ -18,22 +18,71 @@
         <p>Today:math, tomorrow:the WORLD.</p>
       </div>
 <!--FORM-->
-      <div class="well">
-        <form id="add" action="index.html" method="post">
-          <div class="form-group">
-            <label for="add1"></label>
-            <input id="add1" class="form-control" type="text">
+      <div class="row">
+        <div class="well col-md-6">
+          <form id="add" action="index.html" method="post">
+            <div class="form-group">
+              <label for="add1"></label>
+              <input id="add1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="add2"></label>
+              <input id="add2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Add</button>
+          </form>
+          <div class="well">
+            <h4 id="outputAdd"></h4>
           </div>
-          <div class="form-group">
-            <label for="add2"></label>
-            <input id="add2" class="form-control" type="text">
-          </div>
-          <button type="submit" class="btn">Add</button>
-        </form>
-        <div class="well">
-          <h4 id="output"></h4>
         </div>
-      </div>
+        <div class="well col-md-6">
+          <form id="subtract" action="index.html" method="post">
+            <div class="form-group">
+              <label for="subtract1"></label>
+              <input id="subtract1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="subtract2"></label>
+              <input id="subtract2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Subtract</button>
+          </form>
+          <div class="well">
+            <h4 id="outputSubtract"></h4>
+          </div>
+        </div>
+        <div class="well col-md-6">
+          <form id="multiply" action="index.html" method="post">
+            <div class="form-group">
+              <label for="multiply1"></label>
+              <input id="multiply1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="multiply2"></label>
+              <input id="multiply2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Multiply</button>
+          </form>
+          <div class="well">
+            <h4 id="outputMultiply"></h4>
+          </div>
+        </div>
+        <div class="well col-md-6">
+          <form id="divide" action="index.html" method="post">
+            <div class="form-group">
+              <label for="divide1"></label>
+              <input id="divide1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="divide2"></label>
+              <input id="divide2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Divide</button>
+          </form>
+          <div class="well">
+            <h4 id="outputDivide"></h4>
+          </div>
+        </div>
 
     </div>
 
